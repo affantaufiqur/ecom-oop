@@ -5,7 +5,7 @@
 
 export class Cart {
 	/**
-	 * Cart items array def
+	 * Type definition for cart
 	 * @typedef {object} cartItems
 	 * @property {number} productId
 	 * @property { string} productName
@@ -15,7 +15,6 @@ export class Cart {
 	 */
 
 	/**
-	 * Types for args
 	 * @param {number} cartId
 	 * @param {cartItems[]} items
 	 */
@@ -35,7 +34,7 @@ export class Cart {
 	 */
 
 	/**
-	 * Type args for addItems function
+	 * Add item to cart
 	 * @param {productObject} product
 	 * @param {number} quantity
 	 */
@@ -52,7 +51,7 @@ export class Cart {
 	}
 
 	/**
-	 * Type args for removeItem function
+	 * Remove item from cart
 	 * @param {productObject} product
 	 */
 
