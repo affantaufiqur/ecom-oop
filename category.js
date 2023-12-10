@@ -44,17 +44,8 @@ export class Category {
 	}
 
 	/**
-	 * Type definition for product args
-	 * @typedef {object} productObject
-	 * @property {number} productId
-	 * @property {string} productName
-	 * @property {number} price
-	 * @property {string} description
-	 */
-
-	/**
 	 * Add products
-	 * @param {productObject} product
+	 * @param {productsData} product
 	 */
 
 	products(product) {
